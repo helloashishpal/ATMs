@@ -1,0 +1,97 @@
+@keyframes rainbow {
+    0%   {background-color:rgb(20, 138, 185); left:25%; }
+    50%  {background-color: purple; left:27%;}
+    100% {background-color:rgb(20, 138, 185); left:25%;}
+  }
+
+  body{
+      background-image: url(Images/bluepurple.jpg);
+      background-size:cover ;
+  }
+#home{
+    margin:0px;
+    background-image:url(Images/sbi.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.display-1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.homeHead{   
+    position:absolute; 
+    top:35%;
+    left:25%;
+    height:auto;
+    margin: auto; 
+    padding:3%;
+    border-radius:20px;
+    background-color: none;
+    animation-name:rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+form{
+    font-size: large;
+    width:80%;
+}
+form label{
+    width:40%;
+}
+
+form input{
+    width:50%;
+}
+.langHead{   
+    height:auto;
+    margin: auto; 
+    padding:1%;
+    background-color: none;
+    animation-name:rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.langChoice{
+    width:50%;
+     margin:auto;
+     margin-top: 5%;
+}
+.langChoice .langChoiceNo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2em;
+    background-color:white;
+    float:left;
+    width:40%;
+    margin:2%;
+    padding:6%;
+    border-radius:12px; 
+    border:2px purple;
+}
+.langChoice .langChoiceNo:hover{
+    background-color:rebeccapurple;
+    color:whitesmoke;
+}
+.submitButton{
+    width:50%;
+    margin:auto;
+    margin-top: 5%;
+}
+.verify,.cancel,.amountOp,.clear{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2em;
+    background-color:white;
+    float:left;
+    width:auto;
+    margin:2%;
+    padding:2%;
+    border-radius:12px; 
+    border:2px purple;
+}
+.verify:hover,.cancel:hover,.amountOp:hover,.clear:hover{
+    background-color:rgb(118, 59, 177);
+    color:whitesmoke;
+.form-group row{
+    margin:15px;
+    apdding:20px;
+}
